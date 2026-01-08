@@ -1,0 +1,99 @@
+
+body {
+  background: linear-gradient(135deg, #e3f0ff 0%, #f7e9ff 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+  color: #222;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%) !important;
+  box-shadow: 0 2px 8px rgba(106,17,203,0.1);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar-brand img {
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15));
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.card {
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(106,17,203,0.08);
+}
+.card-title {
+  color: #6a11cb;
+  font-weight: 700;
+}
+
+.table {
+  background: #f7e9ff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table-primary {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f0ff;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(106,17,203,0.08);
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+  color: #ffd700;
+}
+
+a {
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  color: #6a11cb;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #6a11cb;
+  font-weight: 700;
+}
+
+/* Favicon and logo styles */
+.App-logo {
+  height: 40px;
+  margin-right: 12px;
+}
+
+/* Custom modal styles (if needed) */
+.modal-content {
+  border-radius: 1rem;
+  background: #f7e9ff;
+}
+.modal-header {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.modal-footer {
+  background: #e3f0ff;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
